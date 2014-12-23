@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ridho.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NasibActivity"
+            android:label="@string/title_activity_nasib" >
+        </activity>
+        <activity
+            android:name=".SambelActivity"
+            android:label="@string/title_activity_sambel" >
+        </activity>
+        <activity
+            android:name=".CongratsActivity"
+            android:label="@string/title_activity_congrats" >
+        </activity>
+        <activity
+            android:name=".DonaturresmiActivity"
+            android:label="@string/title_activity_donaturresmi" >
+        </activity>
+        <activity
+            android:name=".BabingorokActivity"
+            android:label="@string/title_activity_babingorok" >
+        </activity>
+        <activity
+            android:name=".Akupucat"
+            android:label="@string/title_activity_akupucat" >
+        </activity>
+        <activity
+            android:name=".Bisniswaralaba"
+            android:label="@string/title_activity_bisniswaralaba" >
+        </activity>
+        <activity
+            android:name=".Ekonomisulit"
+            android:label="@string/title_activity_ekonomisulit" >
+        </activity>
+    </application>
+
+</manifest>

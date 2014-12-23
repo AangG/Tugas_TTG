@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+E:\TebakGambar\TugasTTG\.metadata\.plugins\org.eclipse.jdt.core
+878474131.index
+2895494951.index
